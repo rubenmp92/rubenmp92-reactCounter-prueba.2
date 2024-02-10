@@ -10,3 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.big-container{
+    text-align: center;
+    background: black;
+    background-image: url("https://picsum.photos/id/175/367/267/?blur=2");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.big-container div {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    background-color: #101010;
+    color: white;
+    margin: 60px;
+
+}
+#clock{
+    font-size: 60px;
+    
+}
